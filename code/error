@@ -1,0 +1,9 @@
+ControlDesk.java:46: error: ControlDesk is not abstract and does not override abstract method registerPatron(String) in AddNewPatron
+class ControlDesk extends Thread implements AddNewPatron {
+
+AddNewPatron.java:14: error: modifier private not allowed here
+	private Bowler registerPatron(String nickName) {
+	               ^
+AddNewPatron.java:14: error: interface abstract methods cannot have body
+	private Bowler registerPatron(String nickName) {
+
